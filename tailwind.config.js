@@ -15,6 +15,9 @@ module.exports = {
 				gray: {
 					300: "#B9BDCF",
 				},
+				stone: {
+					100: "#F6F7FB",
+				},
 			},
 		},
 	},

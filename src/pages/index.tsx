@@ -1,7 +1,3 @@
-const Home = () => {
-	return (
-		<h1>Hello World!</h1>
-	);
-};
+import { Home } from "../web/pages/home";
 
 export default Home;

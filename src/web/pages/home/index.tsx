@@ -1,7 +1,8 @@
 import { FC } from "react";
+import { Header } from "web/components/header";
 
 export const Home: FC = () => {
 	return (
-		<h1>Hello world!</h1>
+		<Header />
 	);
 };

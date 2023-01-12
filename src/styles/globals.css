@@ -6,3 +6,21 @@ html,
 body {
 	@apply m-0 p-0;
 }
+
+body {
+	@apply bg-stone-100 px-14 py-8;
+}
+
+h1,
+h2,
+h3 {
+	@apply text-blue-900 font-bold;
+}
+
+h1 {
+	@apply text-2xl;
+}
+
+p {
+	@apply text-blue-800;
+}

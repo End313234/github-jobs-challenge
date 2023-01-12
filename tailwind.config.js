@@ -2,7 +2,21 @@
 module.exports = {
 	content: ["./src/**/*.tsx"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				sans: "Poppins, sans-serif",
+				roboto: "Roboto, sans-serif",
+			},
+			colors: {
+				blue: {
+					500: "#1E86FF",
+					800: "#334680",
+				},
+				gray: {
+					300: "#B9BDCF",
+				},
+			},
+		},
 	},
 	plugins: [],
 };

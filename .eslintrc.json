@@ -20,6 +20,7 @@
 		"react/function-component-definition": "off",
 		"arrow-body-style": "off",
 		"@typescript-eslint/quotes": "off",
-		"react/button-has-type": "off"
+		"react/button-has-type": "off",
+		"react/prop-types": "skipUndeclared"
 	}
 }

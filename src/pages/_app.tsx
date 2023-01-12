@@ -1,8 +1,13 @@
 import "../styles/globals.css";
-import type { AppProps } from "next/app";
+import { AppPropsWithLayout } from "types/layout";
+import { LayoutWithHeaderAndFooter } from "web/layouts/with-header-and-footer";
 
-const App = ({ Component, pageProps }: AppProps) => {
-	return <Component {...pageProps} />;
+const App = ({ Component, pageProps }: AppPropsWithLayout) => {
+	return (
+		<LayoutWithHeaderAndFooter>
+			<Component {...pageProps} />
+		</LayoutWithHeaderAndFooter>
+	);
 };
 
 export default App;

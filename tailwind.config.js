@@ -20,6 +20,9 @@ module.exports = {
 					100: "#F6F7FB",
 				},
 			},
+			backgroundImage: {
+				"buildings-pattern": "url('/buildings-pattern.webp')",
+			},
 		},
 	},
 	plugins: [],
